@@ -1,0 +1,189 @@
+/* Start of  our Contact */
+.contact-title{
+    text-align: center;
+    font-size: 26px;
+    color: blue;
+}
+
+.map-container{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.map-container iframe{
+    width: 80%;
+}
+
+.contact-box{
+    display: block;
+    text-align: center;
+    margin: 25px auto 10px auto;
+    width: 90%;
+}
+
+.box{
+    display: inline-block;
+    height: 120px;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    word-wrap: break-word;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box:hover{
+    background-color: #ddd;
+}
+
+.address{
+    width: fit-content;
+    margin: 0 auto 0 auto;
+}
+
+.box a, .address{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    background-color: rgba(135, 207, 235, 0.437);
+}
+
+.box a:hover, .address:hover{
+    background-color: slategray;
+}
+
+.icon i{
+    color: #1d67deb9;
+    font-size: 25px;
+    margin-left: 8px;
+    margin-right: 10px;
+    transition: 2.5s ease;
+}
+
+.icon i:hover{
+    transform: scale(1.6);
+}
+
+.social-container {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-container a{
+    margin: 0 10px;
+    
+}
+.social-container a i{
+    color: #1d67deb9;
+     font-size: 50px;
+    /*  position: absolute; */
+     /* padding: 5px; */
+     /* column-gap: none; */
+      /* margin-left: 200px; */
+    /* margin-right: auto; */
+    transition: 2.5s ease;
+}
+
+.social-container a i:hover{
+    transform: scale(1.6);
+}
+
+/* Start of the form container */
+.form-container{
+    display: block;
+    width: 100%;
+}
+
+.my-form{
+    display: block;
+    width: 40%;
+    margin: 25px auto;
+}
+
+.form-title{
+    font-size: 28px;
+    text-align: center;
+    color: blue;
+}
+ 
+label{
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+}
+
+input[type=text]{
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border:none;
+    background-color: #eeeeee6e;
+    border-radius: 10px;
+    
+}
+
+input[type=text]:focus{
+    background-color: #eeeeeea9;
+    color: #733feb;
+}
+
+textarea{
+    width: 105%;
+    border-radius: 10px;
+}
+
+.form-btn{
+    color: #fff;
+    background-color: #00f;
+    padding: 5px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+@media(max-width:700px){
+    .map-container iframe{
+        width: 90%;
+    }
+
+    .box{
+        display: block;
+        width: 95%;
+        margin: 5px auto 20px auto;
+        height: 120px;
+    }
+
+    .social-container {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .social-container a{
+        margin-left: -15px;
+    }
+
+    .social-container a i{
+        color: #1d67deb9;
+         font-size: 30px;
+         padding: 5px;
+         margin-left: 20px;
+         margin-right: auto;
+        transition: 2.5s ease;
+    }
+    
+    .social-container a i:hover{
+        transform: scale(1.6);
+    }
+
+    .my-form{
+        width: 70%;
+    }
+}

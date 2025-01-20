@@ -1,0 +1,49 @@
+/* Style of the breadcrumb section */
+.about-start{
+    padding: 20px;
+    background-color: rgba(56, 126, 131, 0.751);
+    text-align: center;
+    color: white;
+}
+
+.about-start a{
+    text-decoration: none;
+    color: #ddd;
+}
+
+.admission-start{
+    padding: 20px;
+    background-color: rgba(56, 126, 131, 0.751);
+    text-align: center;
+    color: white;
+}
+
+.admission-start a{
+    text-decoration: none;
+    color: #ddd;
+}
+
+.course-start{
+    padding: 20px;
+    background-color: rgba(56, 126, 131, 0.751);
+    text-align: center;
+    color: white;
+}
+
+.course-start a{
+    text-decoration: none;
+    color: #ddd;
+}
+
+.contact-start{
+    padding: 20px;
+    background-color: rgba(56, 126, 131, 0.751);
+    text-align: center;
+    color: white;
+}
+
+.contact-start a{
+    text-decoration: none;
+    color: #ddd;
+}
+

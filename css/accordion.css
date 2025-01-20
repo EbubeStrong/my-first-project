@@ -1,0 +1,35 @@
+/* Style for all the accordion sections */
+.accordion{
+     display: block;
+     width: 85%;
+     margin: 0 auto;
+}
+
+.accordion-title{
+     text-align: center;
+     font-size: 30px;
+}
+
+#accordion1, #accordion2, #accordion3{
+    display: block;
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+    background-color: rgba(58, 168, 227, 0.703);
+    color: #0d39eb;
+    border: 1px solid rgb(156, 153, 153);
+    margin: 0 auto;
+}
+
+#panel1, #panel2, #panel3{
+    display: none;
+    width: 79%;
+    padding: 20px 5px 20px 15px;
+    border-radius: 8px;
+    margin: 0 auto;
+    background-color: #d2c1c13e;
+    box-shadow: 0 4px 6px 0 rgb(0,0,0,0.4);
+    font-size: large;
+}

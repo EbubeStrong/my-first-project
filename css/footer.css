@@ -1,0 +1,81 @@
+/* Start of footer */
+footer{
+    background-color: grey;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 50px;
+}
+
+.footer-container{
+    display: block;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.footer-1, .footer-2, .footer-3, .footer-4{
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+}
+
+.footer-1 h2, .footer-2 h2, .footer-3 h2, .footer-4 h2{
+    color: blue;
+}
+
+.footer-1 a i{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 8px;
+    font-size: 22px;
+    margin-right: 10px;
+    transition: 2.5s ease;
+}
+
+.footer-1 a i:hover{
+    transform: scale(1.6);
+}
+
+.footer-2 a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.locate{
+    text-decoration: none;
+    cursor: alias;
+}
+
+input[type=email]{
+    padding: 8px;
+    color: blue;
+    background: white;
+    
+}
+
+.sub-btn{
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.sub-btn:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:700px){
+    .footer-1, .footer-2, .footer-3, .footer-4{
+        display: block;
+        width: 60%;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }  
+
+    .sub-btn{
+        display: inline-block;
+
+    }
+}

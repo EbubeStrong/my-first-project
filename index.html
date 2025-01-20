@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="icon" href="img/html5.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <script src="js/header.js"></script>
+    <link rel="stylesheet" href="css/call-action.css">
+    <link rel="stylesheet" href="css/featured.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <!-- Start of the hero section -->
+    <div class="hero-start">
+        <!-- Header section for smaller devices -->
+      <div class="small-screen">
+        <div class="logo">
+            <img src="img/logo2.png" alt="logo">
+        </div>
+
+        <div id="myNav" class="nav-menu">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">CLOSE</a>
+            <div class="dropdown-content">
+                <a href="index.html"><i class='bx bxs-home'></i> Home</a>
+                <a href="about.html"><i class='bx bx-buildings'></i> About Us</a>
+                <a href="admission.html"><i class='bx bx-edit-alt' ></i> Admission</a>
+                <a href="courses.html"><i class='bx bxs-book'></i> Our Cousers</a>
+                <a href="contact.html"><i class='bx bx-message-rounded-dots' ></i> Contact Us</a>
+            </div>
+        </div>
+        <br>
+      <span class="openbtn" onclick="openNav()"><i class='bx bx-menu'></i></span>
+      <div class="background"></div>
+      </div>
+
+      <!-- Header section for larger screen devices -->
+      <div class="large-screen">
+        <div class="col-1">
+            <img src="img/logo2.png" alt="logo">
+         </div>
+        
+        <div class="col-2">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="admission.html">Admission</a>
+            <a href="courses.html">Our Courses</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col-3">
+            <a href=""><i class='bx bx-search'></i></a>
+            <a href=""><i class='bx bxs-user'></i></a>
+            <a href=""><i class='bx bx-cart'></i></a>
+        </div>
+        <div class="background"></div>
+      </div>
+
+      <!-- Start of hero text and form -->
+       <div class="hero-text">
+        <p style="font-size: 50px; color:white;"><b>Education</b> is your key to Build the Future</p>
+
+        <a class="hero-btn" href="admission.html"><i class='bx bx-user-plus'></i> Register</a>
+        <a class="hero-btn" href=""> <i class='bx bx-log-in'></i> Login</a>
+       </div>
+
+       <div class="hero-form">
+        <label for="uname">Username: </label>
+        <br>
+        <input type="text" id="uname" placeholder="@username">
+        <br> <br>
+        <label for="password">Password: </label>   
+        <br>
+        <input type="password" id="password" placeholder="Your password..."><br><br>
+   
+        <a class="submit-btn" href="">Submit</a>
+
+        <a class="forgot-password" href="">Forgot password?</a>
+       </div>
+    </div>
+    <marquee>Student Login</marquee>
+
+    <!-- Start of our services -->
+    <div class="call-action">
+        <div class="call-image">
+            <img src="img/Student.jpg" alt="Student">
+        </div>
+
+        <div class="call-text">
+            <h2>Get Access to Quality Courses from <br> Expert Today</h2>
+            <p>Become a professional by developing different website and understand many skills which you need to get hired for a remote job internationally. You will also be issued a certificate after you have completed each course you enrolled for on our website.</p>
+
+            <a class="call-btn" href="courses.html">Discover Courses <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- Start of Mobile App -->
+    <div class="mobile-app">
+        <h3>Excellent Academy now has a mobile phone App</h3>
+
+        <img src="img/playstore.jpg" alt="Playstore Logo">
+        <img src="img/ios.jpg" alt="ios Logo">
+    </div>
+    <br><br><br>
+
+    <!-- Start of featured courses -->
+   <h2 class="course-title">Our featured Courses</h2>
+
+   <div class="featured">
+    <div class="box">
+        <img src="img/html5.png" alt="HTML Logo">
+        <h4>HTML Course</h4>
+        <p>Learn how to develop website with <br> coding.</p><br>
+        <a class="box-btn" href="admission.html"><i>Explore Now</i> <i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+
+    <div class="box">
+        <img src="img/css.jpg" alt="CSS Logo">
+        <h4>CSS Course</h4>
+        <p>Learn how to style Html element with <br> Ease.</p><br>
+        <a class="box-btn" href="admission.html"><i>Explore Now</i> <i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+
+    <div class="box">
+        <img src="img/js.jpg" alt="javascript Logo">
+        <h4>Javascript Course</h4>
+        <p>Learn how to create behaviors for websites.</p><br>
+        <a class="box-btn" href="admission.html"><i>Explore Now</i> <i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+
+    <div class="box">
+        <img src="img/jquery.jpg" alt="jQuery Logo">
+        <h4>jQuery Course</h4>
+        <p>Learn how to write Javascript in a simple <br> way.</p><br>
+        <a class="box-btn" href="admission.html"><i>Explore Now</i> <i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+   </div><br><br><br><br>
+
+   <!-- Start of FAQS -->
+   <div class="accordion-container">
+    <h2 class="accordion-title">Frequently asked questions</h2>
+
+    <div id="accordion1">
+        <i class='bx bx-down-arrow-alt'></i>
+        What skills Will I Learn
+    </div>
+    <div id="panel1">You can learn many skills from frontend development like:
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>jQuery</li>
+            <li>Wordpress</li>
+            <li>Microsoft Excel etc...</li>
+        </ul>
+    </div>
+    <br>
+     <div id="accordion2">
+        <i class='bx bx-down-arrow-alt'></i>
+        Will I Get a certificate?
+     </div>
+     <div id="panel2">Yes, you are to be issued a certificate for all the courses you enrolled in.</div>
+   </div><br>
+
+     <div id="accordion3">
+        <i class='bx bx-down-arrow-alt'></i>
+        What are the App I will need?
+     </div>
+     <div id="panel3">You need to download Trebedit Application for android users and Visual Studio Code for Laptop Users.</div>
+   <br><br>
+
+   <!-- Start of the footer section -->
+   <!-- Start of footer 1 -->
+   <footer>
+    <div class="footer-container">
+        <div class="footer-1">
+            <h2>Contact Us</h2>
+            <address><i class='bx bx-map'></i>1 Aria Road  <abbr class="locate" title="Government Reserved Area">GRA</abbr> Enugu, Nigeria.</address>
+            <p><i class='bx bx-phone'></i> +2347025528172</p>
+            <p><i class='bx bx-envelope'></i> excellentacademy231@gmail.com</p>
+            <a href=""><i class='bx bxl-facebook'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+           <a href=""><i class='bx bxl-instagram'></i></a>
+        </div>
+
+        <!-- Start of footer 2 -->
+        <div class="footer-2">
+            <h2>My Account</h2>
+            <a href="admission.html">My Account</a>
+            <a href="courses.html">Courses</a>
+            <a href="about.html">About Us</a>
+            <a href="index.html">FAQs</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- Start of footer 3 -->
+        <div class="footer-3">
+            <h2>Opening Hours</h2>
+            <p><b>Monday</b> 8am-7pm</p>
+            <p><b>Tuesday</b>  8am-7pm</p>
+            <p><b>Wednesday</b> 8am-7pm</p>
+            <p><b>Thursday</b> 8am-7pm</p>
+            <p><b>Friday</b> 8am-7pm</p>
+        </div>
+
+        <!-- Start of footer 4 -->
+        <div class="footer-4">
+            <h2>Newsletter</h2>
+            <p>Subscribe to our Newsletter to be receiving the latest updates.</p>
+
+            <input type="email" placeholder="Email Address">
+            <a class="sub-btn" href="">Subscribe</a>
+        </div>
+    </div>
+   </footer>
+
+
+
+<!--Script to Accordion  -->
+   <script>
+    $(document).ready(function(){
+         $("#accordion1").click(function(){
+            $("#panel1").slideToggle("fast");
+        });
+    });
+
+    $(document).ready(function(){
+         $("#accordion2").click(function(){
+            $("#panel2").slideToggle("fast");
+        });
+    });
+
+    $(document).ready(function(){
+         $("#accordion3").click(function(){
+            $("#panel3").slideToggle("fast");
+        });
+    });
+   </script>
+</body>
+</html>

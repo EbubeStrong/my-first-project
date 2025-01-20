@@ -1,0 +1,125 @@
+/* Style for call to action */
+.call-action{
+  display: block;
+  width: 100%;
+  height: 400px;
+  margin: 300px 7px 10px 0;
+  text-align: center;
+  background-color: #eee;
+}
+
+.call-image{
+   display: inline-block;
+   width: 45%;
+   margin-left: 20px;
+   margin-top: 30px;
+}
+
+.call-image img{
+    width: 500px;
+    height:350px;
+    border-radius: 15px;
+}
+
+.call-text{
+display: inline-block;
+width: 50%;
+font-family: Arial, Helvetica, sans-serif;
+vertical-align: top;
+}
+
+.call-text h2{
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.call-text p{
+   font-size: 25px;
+   text-align: justify;
+}
+
+.call-btn{
+   border: 1px solid black;
+   background-color: blue;
+   color: white;
+   font-size: 18px;
+   padding: 7px 10px;
+   text-decoration: none;
+   border-radius: 8px;
+}
+
+.mobile-app{
+    display: block;
+    width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+.mobile-app h3{
+    font-size: 25px;
+}
+
+.mobile-app img{
+  display: inline-block;
+  width: 150px;
+  height: 45px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 700px){
+    .call-action{
+        display: block;
+       width: 98%;
+        height: 420px;
+        margin: -35px auto 60px auto;
+        text-align: center;
+        background-color: #eee;
+      }
+
+    .call-image{
+        display: block;
+        width: 95%;
+    }
+
+    .call-image img{
+        width: 300px;
+        height:350px;
+        border-radius: 15px;
+        margin-top: 40px;
+    }
+
+    .call-text{
+        display: block;
+        width: 95%;
+        margin: 10px auto 10px auto;
+    }
+
+    .mobile-app{
+      /*   display: block;
+        width: 60%; */
+      /*  margin-left: auto;
+       margin-right: auto; */
+       margin-top: 400px;
+      /*  text-align: center; */
+    }
+    
+    .mobile-app h3{
+        font-size: 25px;
+    }
+    
+    .mobile-app img{
+      display: block;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 5px;
+      /* width: 150px;
+      height: 45px;
+      margin-right: 5px;
+      margin-bottom: 5px; */
+    }
+    
+
+}

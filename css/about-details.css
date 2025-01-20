@@ -1,0 +1,131 @@
+/* Style of about-details */
+.about-details{
+    display: block;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/School.jpg) fixed;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    width: 70%;
+    padding: 70px 70px;
+    margin: 40px auto;
+}
+
+.about-details p{
+    font-size: 22px;
+}
+
+.details-btn{
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #fff;
+    text-align: none;
+    background-color: rgba(32, 32, 121, 0.873);
+    padding: 14px 15px;
+}
+
+.details-btn:hover{
+    background-color: #aaa;
+    color: black;
+    font-size: large;
+}
+
+/* Teacher Section */
+.teacher{
+    display: block;
+    text-align: center;
+    background-color: #ddd;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-bottom: -45px;
+}
+
+.profile, .profile1{
+    display: inline-block;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 12px;
+    color: rgba(10, 1, 1, 0.708);
+    background-color: rgba(20, 56, 36, 0.599);
+}
+
+.profile img, .profile1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.profile1{
+    margin-top: 30px;
+}
+
+.pic p{
+    background-color: silver;
+    color: black;
+    font-size: 20px;
+}
+
+.pic{
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile a i, .profile1 a i{
+    font-size: 22px;
+    color: #3d3535;
+    margin-right: 10px;
+    transition: 2.5s ease;
+}
+
+.profile a:hover i, .profile1 a:hover i{
+    transform: scale(1.6);
+}
+
+@media (max-width:700px){
+    .about-details{
+        display: block;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/School.jpg) fixed;
+        background-repeat: no-repeat;
+        color: white;
+        text-align: center;
+        width: 70%;
+        padding: 80px 40px 35px 40px;
+        margin: 70px auto 40px auto ;
+        background-position-y: center;
+    }
+
+    .about-details p{
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    
+    .details-btn{
+        border: none;
+        text-decoration: none;
+        border-radius: 8px;
+        color: #fff;
+        text-align: none;
+        background-color: rgba(32, 32, 121, 0.873);
+        padding: 14px 15px;
+    }
+    
+    .details-btn:hover{
+        background-color: #aaa;
+        color: black;
+        font-size: large;
+    }
+
+    .profile, .profile1{
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+   /*  .about-details{
+        padding: 20px 10px;
+        width: 90%;
+        margin: 40px auto;
+    } */
+}
